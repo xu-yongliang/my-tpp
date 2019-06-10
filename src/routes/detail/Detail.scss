@@ -1,0 +1,87 @@
+@import "../../util";
+
+.detailLayer {
+
+  &__poster {
+    height: 235px;
+    margin-bottom: -15px;
+  }
+
+  &__desc {
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 20px 20px;
+  }
+
+  &__movieScoreWrapper {
+    padding: 10px 0 5px;
+  }
+
+  &__module {
+    border-top: 1px #ededed solid;
+    padding: 20px 20px 20px 20px;
+  }
+
+  &__dlTab {
+    position: relative;
+    z-index: 66;
+    background-color: #fff;
+    width: 100%;
+    ul {
+      height: 48px;
+      @include flex-center;
+    }
+
+    &--active {
+      position: absolute;
+      bottom: 0;
+      width: 15px;
+      height: 2px;
+      border-radius: 100px;
+      background-color: #000;
+      transition: left .2s ease-in;
+      transform: translate(-50%);
+    }
+  }
+
+  &__dlTabBlock {
+    height: 0;
+  }
+
+  &__overview {
+    line-height: 28px;
+  }
+
+  &__moduleTitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 16px;
+  }
+
+  &__more {
+    li:nth-of-type(n+2) {
+      border-top: 1px #ededed solid;
+    }
+    .lineLink {
+      height: 53px;
+      line-height: 53px;
+    }
+  }
+}
+
+.dlTab {
+  &__item {
+    flex: 1;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+
+    &--active {
+      font-weight: 700;
+    }
+  }
+}

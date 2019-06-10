@@ -1,0 +1,27 @@
+.headPoster {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  background-image: url('//gw.alicdn.com/i4/TB18sKCUa6qK1RjSZFmXXX0PFXa_.jpg_800x800Q30.jpg');
+
+  &::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-image: linear-gradient(0deg, #000 7%, transparent 60%);
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+    top: 0;
+    left: 0;
+  }
+
+  .tNav {
+    position: relative;
+    padding: 0 10px;
+    z-index: 6;
+  }
+
+}

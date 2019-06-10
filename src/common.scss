@@ -1,0 +1,68 @@
+.gTag {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 4px;
+
+  &:nth-child(n + 2) {
+    margin-left: 6px;
+  }
+
+  &--red {
+    color: #EF6A79;
+    border: 1px solid #EF6A79;
+  }
+
+  &--blue {
+    color: #5BA4E8;
+    border: 1px solid #5BA4E8;
+  }
+}
+
+.gBtn {
+  border: none;
+  width: 50px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 14px;
+  text-align: center;
+  background-color: #EF6D83;
+  color: #fff;
+  font-size: 12px;
+}
+
+.tNav {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  line-height: 40px;
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+
+    &--setting {
+      background: transparent url('./icons/setting.svg') 0 50% / 20px 20px no-repeat;
+    }
+
+    &--message {
+      background: transparent url('./icons/message.svg') 100% 50% / 20px 20px no-repeat;
+    }
+
+    &--back {
+      background: transparent url('./icons/back.svg') 0 50% / 15px 20px no-repeat;
+    }
+
+    &--share {
+      background: transparent url('./icons/share.svg') 100% 50% / 20px 20px no-repeat;
+    }
+  }
+
+}
+
+.margin-area {
+  height: 9px;
+
+  background-color: #f5f5f5;
+}
