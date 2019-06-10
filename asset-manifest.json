@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-tpp/static/css/main.4da35f6d.chunk.css",
+    "main.js": "/my-tpp/static/js/main.dc3adaf9.chunk.js",
+    "main.js.map": "/my-tpp/static/js/main.dc3adaf9.chunk.js.map",
+    "runtime~main.js": "/my-tpp/static/js/runtime~main.646873ca.js",
+    "runtime~main.js.map": "/my-tpp/static/js/runtime~main.646873ca.js.map",
+    "static/js/2.46b6183e.chunk.js": "/my-tpp/static/js/2.46b6183e.chunk.js",
+    "static/js/2.46b6183e.chunk.js.map": "/my-tpp/static/js/2.46b6183e.chunk.js.map",
+    "index.html": "/my-tpp/index.html",
+    "precache-manifest.09114f247b7ffed7e82b97727329e342.js": "/my-tpp/precache-manifest.09114f247b7ffed7e82b97727329e342.js",
+    "service-worker.js": "/my-tpp/service-worker.js",
+    "static/css/main.4da35f6d.chunk.css.map": "/my-tpp/static/css/main.4da35f6d.chunk.css.map",
+    "static/media/LineLink.scss": "/my-tpp/static/media/arrow-r.57e4ebeb.svg",
+    "static/media/common.scss": "/my-tpp/static/media/share.6fdeeb03.svg",
+    "static/media/TopBar.scss": "/my-tpp/static/media/search.bb0b8b5a.svg",
+    "static/media/Star.scss": "/my-tpp/static/media/star.9354869d.svg",
+    "static/media/Comment.scss": "/my-tpp/static/media/zan-solid.f993be53.svg"
+  }
+}
