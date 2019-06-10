@@ -14,7 +14,7 @@ class My extends Component {
                         <div className="tNav__icon tNav__icon--message"></div>
                     </div>
                     <div className="my__info">
-                        <div className="my__avatar" style={{backgroundImage: 'url(%PUBLIC_URL%/source/avatar.png)'}}/>
+                        <div className="my__avatar" style={{backgroundImage: 'url(https://chjoker.github.io/my-tpp/source/avatar.png)'}}/>
                         <div className="my__detail">
                             <h3 className="my__name">sunshiner地方</h3>
                             <p className="my__status">

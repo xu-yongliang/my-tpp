@@ -47,7 +47,7 @@ class Detail extends Component {
     };
 
     scrollHandler = (e) => {
-        const curScroll = document.documentElement.scrollTop;
+        const curScroll = document.documentElement.scrollTop + document.body.scrollTop;
 
         const baseWidth = window.innerWidth;
         if (curScroll < this.dlTab.current.offsetTop) {

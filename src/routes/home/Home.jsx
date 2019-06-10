@@ -37,8 +37,8 @@ class Home extends Component {
     render() {
         return (
             <div className="home">
-                <div className="home__nav" onClick={this.changeCityLayerVisible}>
-                    <TopBar city={this.state.city}/>
+                <div className="home__nav">
+                    <TopBar city={this.state.city} selectCity={this.changeCityLayerVisible}/>
                 </div>
                 <div className="home__slider">
                     <div className="home__sliderWrap">
